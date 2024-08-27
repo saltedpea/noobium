@@ -1,12 +1,28 @@
-- 👋 Hi, I’m @saltedpea
-- 👀 I’m interested in coding and learning much more about it 
-- 🌱 I’m currently a beginner in AIML and still havent gone in depth 
-- 💞️ I’m looking to collaborate on deep learning and related to AI or may be even ML
-- 📫 How to reach me mail id : kaviyarupesh.2005@gmail.com
-- 😄 Pronouns: she/her
-- ⚡ Fun fact: 1 2 buckle my shoe, call me scooby cuz i cant doo it anymore
+# Animal Classification using Transfer Learning Model (MobileNetV2)
 
-<!---
-saltedpea/saltedpea is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Image Dataset Link: https://www.kaggle.com/datasets/alessiocorrado99/animals10
+
+## Overview
+This is a image classification web application, using Streamlit. This app will classify 6 animals(dog, horse, elephant, butterfly, chicken, cat).
+
+## Procedure
+* Install given modules
+* Build Model
+* Build Model
+* Test Results
+
+## Model
+I have chosen the pretrained "MobileNetV2" model to perform classification.
+
+## Modules Required
+* streamlit==1.14.0
+* numpy==1.23.4
+* opencv-python==4.6.0.66
+* tensorflow==2.10.0
+
+## Streamlit Web App
+<img src="/image_classification_project.JPG" alt="image_classification_project">
+
+### After uploading an image, this is how result show.
+
+<img src="/image_classify_2.JPG" alt="image_classify">
